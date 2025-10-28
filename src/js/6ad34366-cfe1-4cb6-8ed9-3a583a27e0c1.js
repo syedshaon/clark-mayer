@@ -1,0 +1,2 @@
+/**handles:essence-pro-smooth-scroll**/
+var studiopress=studiopress||{};studiopress.smoothScroll=(n=>{var s=1e3,o=function(t,o){var e=n(t.hash);window.location.hostname===t.hostname&&window.location.pathname===t.pathname&&(0<(e=0===e.length?n("[name="+t.hash.slice(1)+"]"):e).length&&n("html,body").animate({scrollTop:e.offset().top},s),o.preventDefault())},t;return{init:function(){n('a[href*="#"]:not([href="#"])').click(function(t){o(this,t)})}}})(jQuery),jQuery(studiopress.smoothScroll.init);

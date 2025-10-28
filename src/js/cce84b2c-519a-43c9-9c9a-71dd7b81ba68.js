@@ -1,0 +1,2 @@
+/**handles:global-js**/
+(o=>{function n(){o("body").toggleClass("no-scroll"),o(".off-screen-menu").fadeToggle()}function e(){var e="block"===o(".menu-toggle").css("display"),s=o("body").hasClass("no-scroll");e&&s&&n()}o("html").addClass("js"),o(function(){o(".toggle-off-screen-menu-area").click(n),o(window).resize(e)}),o(function(){o(".after-content-featured .entry *").focus(function(){o(this).closest(".entry").addClass("focused")}).blur(function(){o(this).closest(".entry").removeClass("focused")})})})(jQuery);

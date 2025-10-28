@@ -1,0 +1,2 @@
+/**handles:atomic-blocks-dismiss-js**/
+window.NodeList&&!NodeList.prototype.forEach&&(NodeList.prototype.forEach=Array.prototype.forEach),document.addEventListener("DOMContentLoaded",function(){var t;document.querySelectorAll(".ab-block-notice.ab-dismissable[data-id]").forEach(function(e){var o=e.getAttribute("data-id"),t=e.querySelector(".ab-notice-dismiss");localStorage.getItem("notice-"+o)||(e.style.display="block"),t&&t.addEventListener("click",function(t){t.preventDefault(),localStorage.setItem("notice-"+o,"1"),e.style.display=""})})});
