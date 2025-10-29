@@ -1,10 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
   const currentUrl = window.location.pathname.replace(/\/+$/, ""); // remove trailing slash
-  const base = document.querySelector("a[href*='{{ base }}']")?.getAttribute("href")?.split("/")[1] || "";
+  const base = window.location.pathname.split("/")[1] || "";
 
   // Remove current-menu-item from all
   document.querySelectorAll(".menu-item.current-menu-item").forEach((item) => {
-    item.classList.remove("current-menu-item", "current_page_item");
+    item.classList.remove("current-menu-item");
   });
 
   // Find all menu links
@@ -14,13 +14,13 @@ document.addEventListener("DOMContentLoaded", () => {
     const linkUrl = new URL(link.href, window.location.origin).pathname.replace(/\/+$/, "");
     if (linkUrl === currentUrl) {
       const li = link.closest("li.menu-item");
-      li?.classList.add("current-menu-item", "current_page_item");
+      li?.classList.add("current-menu-item");
     }
   });
 
   // Optional: make Home active on base path
   if (currentUrl === "" || currentUrl === `/${base}`) {
     const homeLink = document.querySelector('.menu-item a[href$="{{ base }}"]')?.closest("li.menu-item");
-    homeLink?.classList.add("current-menu-item", "current_page_item");
+    homeLink?.classList.add("current-menu-item");
   }
 });

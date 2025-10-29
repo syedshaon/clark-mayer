@@ -30,8 +30,8 @@
 </div>
 
 <script src="https://code.jquery.com/jquery-3.7.1.min.js" crossorigin="anonymous"></script>
-<script src="/src/js/cad2bcff-6be8-4603-9534-a947d09392e1.js" id="jquery-core-js"></script>
-<script src="/src/js/158d7f84-f58a-4f9c-baf5-4f39055ee203.js" id="jquery-migrate-js"></script>
+<script src="{{ base }}js/cad2bcff-6be8-4603-9534-a947d09392e1.js" id="jquery-core-js"></script>
+<script src="{{ base }}js/158d7f84-f58a-4f9c-baf5-4f39055ee203.js" id="jquery-migrate-js"></script>
 
 <!-- 
 #######################################################################################################
@@ -41,7 +41,7 @@
 #######################################################################################################
 -->
 
-<!-- <script defer type="text/javascript" async="" src="/src/js/matomo.js"></script> -->
+<!-- <script defer type="text/javascript" async="" src="{{ base }}js/matomo.js"></script> -->
 
 <!-- <script defer type="text/javascript">
   window._wpemojiSettings = { baseUrl: "https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/72x72\/", ext: ".png", svgUrl: "https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/svg\/", svgExt: ".svg", source: { concatemoji: "https:\/\/clarkemoyer.com\/wp-includes\/js\/wp-emoji-release.min.js" } };
@@ -177,7 +177,7 @@
     ]
   }
 </script>
-<script defer src="/src/js/wp-emoji-release.min.js"></script>
+<script defer src="{{ base }}js/wp-emoji-release.min.js"></script>
 
 <script defer type="speculationrules">
   { "prefetch": [{ "source": "document", "where": { "and": [{ "href_matches": "\/*" }, { "not": { "href_matches": ["\/wp-*.php", "\/wp-admin\/*", "\/wp-content\/uploads\/*", "\/wp-content\/*", "\/wp-content\/plugins\/*", "\/wp-content\/themes\/essence-pro\/*", "\/wp-content\/themes\/genesis\/*", "\/*\\?(.+)"] } }, { "not": { "selector_matches": "a[rel~=\"nofollow\"]" } }, { "not": { "selector_matches": ".no-prefetch, .no-prefetch a" } }] }, "eagerness": "conservative" }] }
@@ -195,7 +195,7 @@
       s = d.getElementsByTagName("script")[0];
     g.type = "text/javascript";
 
-    g.src = "/src/js/matomo.js";
+    g.src = "{{ base }}js/matomo.js";
     s.parentNode.insertBefore(g, s);
   })();
 </script>
@@ -213,14 +213,14 @@
     padding-left: 1.33em;
   }
 </style>
-<script defer src="/src/js/af7453b8-294c-4a36-807a-6c378cd03a48.js" id="atomic-blocks-dismiss-js-js"></script>
-<script defer src="/src/js/257bd946-a4b4-4cec-8e6e-a37508315c35.js" id="genesis-blocks-dismiss-js-js"></script>
-<script defer src="/src/js/e5ccf665-f560-46be-b7a7-a85e145a3c4a.js" id="hoverIntent-js"></script>
-<script defer src="/src/js/81e0f3ec-ac4f-440c-a5e5-65d36609671d.js" id="superfish-js"></script>
-<script defer src="/src/js/744bd215-ce86-4e72-8832-bd4b41ebcb8a.js" id="superfish-args-js"></script>
-<script defer src="/src/js/5e6c869a-ba3a-4dd1-a1a3-07df43cb92f3.js" id="skip-links-js"></script>
-<script defer src="/src/js/cce84b2c-519a-43c9-9c9a-71dd7b81ba68.js" id="global-js-js"></script>
-<script defer src="/src/js/6ad34366-cfe1-4cb6-8ed9-3a583a27e0c1.js" id="essence-pro-smooth-scroll-js"></script>
+<script defer src="{{ base }}js/af7453b8-294c-4a36-807a-6c378cd03a48.js" id="atomic-blocks-dismiss-js-js"></script>
+<script defer src="{{ base }}js/257bd946-a4b4-4cec-8e6e-a37508315c35.js" id="genesis-blocks-dismiss-js-js"></script>
+<script defer src="{{ base }}js/e5ccf665-f560-46be-b7a7-a85e145a3c4a.js" id="hoverIntent-js"></script>
+<script defer src="{{ base }}js/81e0f3ec-ac4f-440c-a5e5-65d36609671d.js" id="superfish-js"></script>
+<script defer src="{{ base }}js/744bd215-ce86-4e72-8832-bd4b41ebcb8a.js" id="superfish-args-js"></script>
+<script defer src="{{ base }}js/5e6c869a-ba3a-4dd1-a1a3-07df43cb92f3.js" id="skip-links-js"></script>
+<script defer src="{{ base }}js/cce84b2c-519a-43c9-9c9a-71dd7b81ba68.js" id="global-js-js"></script>
+<script defer src="{{ base }}js/6ad34366-cfe1-4cb6-8ed9-3a583a27e0c1.js" id="essence-pro-smooth-scroll-js"></script>
 
 <!-- 
 #######################################################################################################
@@ -233,7 +233,7 @@
   var ub_cookie_notice = { id: "#branda-cookie-notice", cookie: { domain: "", name: "Branda_Cookie_Notice_1", path: "\/", secure: "on", timezone: -14400, value: 2592000 }, reloading: "off", animation: null, ajaxurl: "https:\/\/clarkemoyer.com\/wp-admin\/admin-ajax.php", logged: "no", user_id: "0", nonce: "00a0d05f85" };
 </script> -->
 
-<!-- <script defer src="/src/js/87409f1a-a80d-4604-8ba7-2fb0a890791b.js" id="branda-cookie-notice-front-js"></script> -->
+<!-- <script defer src="{{ base }}js/87409f1a-a80d-4604-8ba7-2fb0a890791b.js" id="branda-cookie-notice-front-js"></script> -->
 
 <!-- 
 #######################################################################################################
@@ -246,11 +246,11 @@
 <script defer id="essence-pro-responsive-menu-js-extra">
   var genesis_responsive_menu = { mainMenu: "Menu", menuIconClass: "ionicons-before ion-ios-menu", subMenu: "Submenu", subMenuIconClass: "ionicons-before ion-ios-arrow-down", menuClasses: { combine: [".nav-primary", ".nav-off-screen"], others: [] } };
 </script>
-<script defer src="/src/js/b2d9b980-09b0-4536-a17f-64c2d1a25ac1.js" id="essence-pro-responsive-menu-js"></script>
+<script defer src="{{ base }}js/b2d9b980-09b0-4536-a17f-64c2d1a25ac1.js" id="essence-pro-responsive-menu-js"></script>
 <script defer id="smush-lazy-load-js-before">
   var smushLazyLoadOptions = { autoResizingEnabled: true, autoResizeOptions: { precision: 5, skipAutoWidth: true } };
 </script>
-<script defer src="/src/js/ae6e123c-a334-4202-a051-2cad20282cd0.js" id="smush-lazy-load-js"></script>
+<script defer src="{{ base }}js/ae6e123c-a334-4202-a051-2cad20282cd0.js" id="smush-lazy-load-js"></script>
 <!-- <div id="branda-cookie-notice-wrap" style="">
   <div id="branda-cookie-notice" role="banner" class="ub-position-bottom ub-style-none">
     <div class="cookie-notice-container">
