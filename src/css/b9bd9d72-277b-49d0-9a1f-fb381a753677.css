@@ -3631,7 +3631,7 @@
   font-family: "Font Awesome 5 Brands";
   font-style: normal;
   font-weight: normal;
-  src: url(../../clarkemoyer.com/wp-content/plugins/atomic-blocks/dist/assets/fontawesome/webfonts/fa-brands-400.eot);
+  src: url({{ base }}wp-content/plugins/atomic-blocks/dist/assets/fontawesome/webfonts/fa-brands-400.eot);
   src: url({{ base }}wp-content/plugins/atomic-blocks/dist/assets/fontawesome/webfonts/fa-brands-400.eot?#iefix) format("embedded-opentype"), url({{ base }}wp-content/plugins/atomic-blocks/dist/assets/fontawesome/webfonts/fa-brands-400.woff2) format("woff2"), url({{ base }}wp-content/plugins/atomic-blocks/dist/assets/fontawesome/webfonts/fa-brands-400.woff) format("woff"), url({{ base }}wp-content/plugins/atomic-blocks/dist/assets/fontawesome/webfonts/fa-brands-400.ttf) format("truetype"), url({{ base }}wp-content/plugins/atomic-blocks/dist/assets/fontawesome/webfonts/fa-brands-400.svg#fontawesome) format("svg");
 }
 .fab {
