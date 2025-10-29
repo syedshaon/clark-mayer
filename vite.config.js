@@ -40,6 +40,7 @@ export default defineConfig(({ command }) => {
           "western-governors-university-bs-it": resolve(__dirname, "western-governors-university-bs-it.html"),
           "wgu-referral-program": resolve(__dirname, "wgu-referral-program.html"),
           "who-i-am": resolve(__dirname, "who-i-am.html"),
+          "psu-arl-referral-program": resolve(__dirname, "psu-arl-referral-program.html"),
         },
       },
     },
