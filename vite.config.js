@@ -41,7 +41,6 @@ export default defineConfig(({ command }) => {
           "wgu-referral-program": resolve(__dirname, "wgu-referral-program.html"),
           "who-i-am": resolve(__dirname, "who-i-am.html"),
           "psu-arl-referral-program": resolve(__dirname, "psu-arl-referral-program.html"),
-          "DCGS-A-Resume-Clarke-Moyer-10-MAR-2014PDF": resolve(__dirname, "DCGS-A-Resume-Clarke-Moyer-10-MAR-2014PDF.pdf"),
         },
       },
     },
