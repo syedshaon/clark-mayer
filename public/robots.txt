@@ -1,0 +1,13 @@
+# robots.txt for GitHub Pages
+
+User-agent: *
+# Allow all content to be indexed
+Allow: /
+
+# Disallow GitHub-specific paths (in case your repo name appears in URLs)
+Disallow: /README.md
+Disallow: /LICENSE
+Disallow: /CNAME
+
+# Sitemap (replace with your actual domain)
+Sitemap: https://syedshaon.github.io/clark-mayer/sitemap.xml
